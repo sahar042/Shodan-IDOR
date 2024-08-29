@@ -25,7 +25,7 @@ Proof of Concept (PoC):
 
 ![Bypass PoC](https://github.com/user-attachments/assets/aa5ab410-9a0b-419b-b970-2588fc976316)
 
-Reporting and Responses
+Reporting and Responses<br>
 I immediately reported this issue to the platform owners—Shodan—, and they acknowledged the vulnerability.
 
 ![image](https://github.com/user-attachments/assets/56f69e6a-15e6-416f-92b9-975c5a3c98cb)
