@@ -3,6 +3,7 @@
 I found a vulnerability within the popular platform that allows one to access some membership features without even having a registered account. That is an example of Insecure Direct Object References—an important critical security vulnerability exposing sensitive data.
 
 Affected Membership Packages: Academic Users, Small Business API Subscription, and up.
+<br>
 Parameter: vuln (Restricted)
 
 ![image](https://github.com/user-attachments/assets/d0c15f10-ef0e-415c-92c7-98f7c26bafb8)
