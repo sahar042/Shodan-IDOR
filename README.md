@@ -1,6 +1,6 @@
 # Shodan-IDOR
 
-I found a vulnerability within the popular platform that allows one to access some membership features without even having a registered account. That is an example of Insecure Direct Object References—an important critical security vulnerability exposing sensitive data.
+I found a vulnerability within the popular platform that allows one to access some membership features without even having a registered account. That is an example of Insecure Direct Object References—an important security vulnerability exposing sensitive data.
 
 Affected Membership Packages: Academic Users, Small Business API Subscription, and up.
 <br>
