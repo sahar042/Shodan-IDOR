@@ -15,9 +15,9 @@ Filter query: vuln (Restricted), tag (Restricted)
 How It Works:
 The URL parameters can be tampered with to bypass access controls and retrieve information intended for higher-tier members. For example, using any restricted params in the URL and allows grouping the result set by IP addresses without the membership normally required for this action.
 
-IDOR Link: 
+IDOR Links:<br>
+You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag'.
 ```
-- You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag'.
 - https://www.shodan.io/search/facet?query=vuln%3Acve-2021-34473&facet=ip
 - https://www.shodan.io/search/facet?query=tag:honeypot&facet=ip
 ```
