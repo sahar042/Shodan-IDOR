@@ -17,8 +17,9 @@ The URL parameters can be tampered with to bypass access controls and retrieve i
 
 IDOR Link: 
 ```
+- You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag'.
 - https://www.shodan.io/search/facet?query=vuln%3Acve-2021-34473&facet=ip
-- You can also use country param (IL used in this example): https://www.shodan.io/search/facet?query=vuln%3Acve-2021-34473+country%3AIL&facet=ip
+- https://www.shodan.io/search/facet?query=tag:honeypot&facet=ip
 ```
 
 (You need to change the CVE you want to search in the URL and you can also to choose how you want to group the list with facet parameter. in this example I used to group them for IP's.
