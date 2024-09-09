@@ -27,3 +27,6 @@ Proof of Concept (PoC):
 
 Reporting and Responses<br>
 I immediately reported this issue to the platform owners—Shodan—, and they acknowledged the vulnerability.
+
+Credits: Sahar Shlichove.
+Linkedin post: https://www.linkedin.com/posts/activity-7234828819507929088-Iwx5?utm_source=share&utm_medium=member_desktop
