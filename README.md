@@ -27,6 +27,9 @@ You can use any Shodan query filters without the need of registered Shodan accou
 Proof of Concept (PoC):
 
 ![Bypass PoC](https://github.com/user-attachments/assets/aa5ab410-9a0b-419b-b970-2588fc976316)
+<br>
+![Screenshot 2024-09-09 134453](https://github.com/user-attachments/assets/8aee5039-eb98-4606-a50e-7be4cc203fcd)
+
 
 Reporting and Responses<br>
 I immediately reported this issue to the platform owners—Shodan—, and they acknowledged the vulnerability.
