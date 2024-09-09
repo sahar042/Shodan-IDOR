@@ -4,11 +4,13 @@ I found a vulnerability within the popular platform that allows one to access so
 
 Affected Membership Packages: Academic Users, Small Business API Subscription, and up.
 <br>
-Filter query: vuln (Restricted)
+Filter query: vuln (Restricted), tag (Restricted)
 
 ![image](https://github.com/user-attachments/assets/d0c15f10-ef0e-415c-92c7-98f7c26bafb8)
 
 ![image](https://github.com/user-attachments/assets/ec27c6b9-059a-4b83-b5a9-322379f3f92a)
+
+![image](https://github.com/user-attachments/assets/b45fcaf2-4a44-4d2a-be3f-c70955e8b041)
 
 How It Works:
 The URL parameters can be tampered with to bypass access controls and retrieve information intended for higher-tier members. For example, using any restricted params in the URL and allows grouping the result set by IP addresses without the membership normally required for this action.
