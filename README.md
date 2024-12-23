@@ -4,7 +4,7 @@ I found a vulnerability within the popular platform that allows one to access so
 
 Affected Membership Packages: Academic Users, Small Business API Subscription, and up.
 <br>
-Filter query: vuln (Restricted), tag (Restricted), compromised (Restricted)
+Filter query: vuln (Restricted), tag (Restricted)
 
 ![image](https://github.com/user-attachments/assets/d0c15f10-ef0e-415c-92c7-98f7c26bafb8)
 
@@ -19,11 +19,11 @@ How It Works:
 The URL parameters can be tampered with to bypass access controls and retrieve information intended for higher-tier members. For example, using any restricted params in the URL and allows grouping the result set by IP addresses without the membership normally required for this action.
 
 IDOR Links:<br>
-You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag' or 'compromised'.
+You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag'.
 ```
 - https://www.shodan.io/search/facet?query=vuln%3Acve-2021-34473&facet=ip
 - https://www.shodan.io/search/facet?query=tag:honeypot&facet=ip
-- https://www.shodan.io/search/facet?query=compromised&facet=ip
+- https://www.shodan.io/search/facet?query=tag:compromised&facet=ip
 ```
 
 (You need to change the CVE you want to search in the URL and you can also to choose how you want to group the list with facet parameter. in this example I used to group them for IP's.
