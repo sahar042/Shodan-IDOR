@@ -23,6 +23,7 @@ You can use any Shodan query filters without the need of registered Shodan accou
 ```
 - https://www.shodan.io/search/facet?query=vuln%3Acve-2021-34473&facet=ip
 - https://www.shodan.io/search/facet?query=tag:honeypot&facet=ip
+- https://www.shodan.io/search/facet?query=compromised&facet=ip
 ```
 
 (You need to change the CVE you want to search in the URL and you can also to choose how you want to group the list with facet parameter. in this example I used to group them for IP's.
