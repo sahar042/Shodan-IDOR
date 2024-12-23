@@ -19,7 +19,7 @@ How It Works:
 The URL parameters can be tampered with to bypass access controls and retrieve information intended for higher-tier members. For example, using any restricted params in the URL and allows grouping the result set by IP addresses without the membership normally required for this action.
 
 IDOR Links:<br>
-You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag'.
+You can use any Shodan query filters without the need of registered Shodan account and also use the enterprise query filters such as 'vuln' or 'tag' or 'compromised'.
 ```
 - https://www.shodan.io/search/facet?query=vuln%3Acve-2021-34473&facet=ip
 - https://www.shodan.io/search/facet?query=tag:honeypot&facet=ip
@@ -37,5 +37,4 @@ Proof of Concept (PoC):
 Reporting and Responses<br>
 I immediately reported this issue to the Shodan platform owners and they acknowledged the vulnerability.
 
-Credits: Sahar Shlichove.<br>
-Linkedin post: https://www.linkedin.com/posts/activity-7234828819507929088-Iwx5?utm_source=share&utm_medium=member_desktop
+Credits: Sahar Shlichove.
